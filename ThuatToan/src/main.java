@@ -11,13 +11,13 @@ public class main {
 		
 //		SelectionSort selectionSort = new SelectionSort();
 //		selectionSort.sort(array);
-		
-//		InsertSort insertSort = new InsertSort();
-//		insertSort.insertSort(array);
 //		
-		
-		MergeSort mergeSort = new MergeSort();
-		mergeSort.mergeSort(array);
+		InsertSort insertSort = new InsertSort();
+		insertSort.insertSort(array);
+//		
+		 
+//		MergeSort mergeSort = new MergeSort();
+//		mergeSort.mergeSort(array);
 		
 		for (int i: array) {
 			System.out.print(i+ " ");
